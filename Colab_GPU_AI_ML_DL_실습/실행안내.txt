@@ -1,0 +1,18 @@
+Colab GPU AI·ML·DL 실습
+
+파일
+- Colab_GPU_AI_ML_DL_실습.ipynb : Google Colab에 올려 실행할 노트북
+- screenshots 폴더 : 현재 Python에서 실행한 CPU 미리보기 이미지 5장
+- Colab_GPU_AI_ML_DL_결과_5장.zip : 미리보기 PNG 5장 묶음
+
+Google Colab에서 실행
+1. https://colab.research.google.com/ 에서 노트북을 업로드합니다.
+2. 런타임 > 런타임 유형 변경 > 하드웨어 가속기에서 T4 GPU를 선택합니다.
+3. 런타임 > 모두 실행을 선택합니다.
+4. 첫 셀 출력에서 Runtime: COLAB GPU · Tesla T4 (또는 선택된 GPU 이름)을 확인합니다.
+5. 마지막 셀이 만든 ZIP을 Colab 왼쪽 파일 패널에서 다운로드합니다.
+
+포함 실습: GPU 텐서 연산, 선형 회귀, MLP 이진 분류, CNN 패턴 이미지 분류, 혼동 행렬과 평가 지표.
+데이터는 합성 데이터를 사용하므로 별도 파일이나 인터넷 다운로드가 필요 없습니다.
+
+주의: 현재 포함된 screenshots는 이 PC의 PyTorch CPU 미리보기입니다. Colab GPU에서 실행하면 같은 파일명이 GPU 실행 결과로 새로 만들어지고, 제목에 실제 GPU 이름이 표시됩니다.
